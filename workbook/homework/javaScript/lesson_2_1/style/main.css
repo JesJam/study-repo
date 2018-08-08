@@ -1,0 +1,62 @@
+/*header block*/
+.mainHeader {
+  /*border: 1px solid black;*/
+  border-bottom: 1px solid black;
+  width: 1200px;
+  height: 100px;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+
+}
+
+.logo {
+  float: left;
+  color: #222222;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.68px;
+  color: #f16d7f;
+  font-weight: 400;
+  letter-spacing: 0.68px;
+}
+
+.logoImg {
+
+}
+.logo span{
+
+}
+.search {
+  float: left;
+}
+
+.card {
+  float: left;
+}
+
+.myAcc {
+
+}
+/*nav block*/
+.mainNav {
+  clear: both;
+  height: 51px;
+
+}
+
+.mainNavItem {
+  display: block;
+  float: left;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*slider block*/
+.sliderFrame {
+  clear: both;
+}
+
+/*category block*/
