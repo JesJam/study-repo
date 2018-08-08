@@ -1,95 +1,86 @@
 /*header block*/
 .mainHeader {
-  height: 100px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
 
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
-  box-sizing: border-box;
-
-
-}
-.logo {
-  float: left;
-  margin-top: 25px;
-  color: #222222;
-  font-size: 27px;
-  font-weight: 300;
-  line-height: 32px;
-  text-transform: uppercase;
-  letter-spacing: 0.68px;
-}
-
-.logoImg {
-  width: 59px;
-  height: 51px;
-}
-.logo span{
-  color: #f16d7f;
-}
-.search {
-  float: left;
-  margin-top: 25px;
-}
-
-.card {
-  float: left;
-  margin-top: 25px;
-  width: 188px;
-}
-
-.myAccButton {
-  width: 130px;
-  height: 38px;
-  background-color: #f16d7f;
-}
-/*nav block*/
-.mainNav {
-  clear: both;
-  height: 51px;
-  width: 680px;
-  margin: 0 auto;
-  color: #222222;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 26px;
-  text-transform: uppercase;
-
-}
-
-.mainNavItem {
-  display: block;
-  float: left;
+  padding: 30px 0;
+  display: flex;
   list-style-type: none;
-  text-decoration: none;
-  text-transform: uppercase;
+  justify-content: space-between;
 }
+
+.mainNav {
+  width: 680px;
+  height: 51px;
+  margin: 0 auto;
+}
+
+.mainNav ul {
+  margin: 0 auto;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
 /*slider block*/
 .sliderFrame {
-  clear: both;
+  height: 665px;
+  background-color: #e8e8e8;
 }
 
 /*category block*/
+.categotyies {
+}
+
+.category ul {
+}
+
 /*products block*/
 .products {
 
 }
 
+}
 .productsArticle {
+  float: left;
+}
+/*footer block*/
+.mainFooter {
+  clear: both;
+  box-sizing: border-box;
+}
+
+.brandDescription {
 
 }
 
-.productsArticleThumbnail {
+.logo {
 
 }
 
-.productsArticleName {
+.logoImg {
 
 }
 
-.productarticleprice {
+.foterNav {
+
+}
+
+.footerNavCompany {
+
+}
+
+.footerNavItem {
+
+}
+
+.footerNavInformation {
+
+}
+
+.footerNavShopCategory {
 
 }
