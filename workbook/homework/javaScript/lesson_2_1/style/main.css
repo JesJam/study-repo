@@ -1,49 +1,62 @@
 /*header block*/
 .mainHeader {
-  /*border: 1px solid black;*/
-  border-bottom: 1px solid black;
-  width: 1200px;
   height: 100px;
-  border-bottom: 1px solid black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
 
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
 
+
+}
 .logo {
   float: left;
+  margin-top: 25px;
   color: #222222;
   font-size: 27px;
   font-weight: 300;
   line-height: 32px;
   text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0.68px;
-  color: #f16d7f;
-  font-weight: 400;
   letter-spacing: 0.68px;
 }
 
 .logoImg {
-
+  width: 59px;
+  height: 51px;
 }
 .logo span{
-
+  color: #f16d7f;
 }
 .search {
   float: left;
+  margin-top: 25px;
 }
 
 .card {
   float: left;
+  margin-top: 25px;
+  width: 188px;
 }
 
-.myAcc {
-
+.myAccButton {
+  width: 130px;
+  height: 38px;
+  background-color: #f16d7f;
 }
 /*nav block*/
 .mainNav {
   clear: both;
   height: 51px;
+  width: 680px;
+  margin: 0 auto;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
 
 }
 
@@ -60,3 +73,23 @@
 }
 
 /*category block*/
+/*products block*/
+.products {
+
+}
+
+.productsArticle {
+
+}
+
+.productsArticleThumbnail {
+
+}
+
+.productsArticleName {
+
+}
+
+.productarticleprice {
+
+}
