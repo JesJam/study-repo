@@ -1,6 +1,7 @@
 /*header section*/
 .mainHeader {
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+  border: 1px solid #ececec;
 }
 
 .container {
@@ -8,6 +9,7 @@
   margin: 0 auto;
   padding: 30px 0;
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-between;
 }
@@ -25,11 +27,25 @@
   color: #f16d7f;
 }
 
-.brandButton {
+.card {
   width: 130px;
   height: 38px;
+}
+
+.brandButton {
   border-radius: 3px;
   background-color: #f16d7f;
+}
+
+.brandButton p {
+  width: 82px;
+  height: 14px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.38px;
 }
 
 .mainNav {
@@ -72,25 +88,9 @@
 }
 
 /*category section*/
-.categotyies {
-  height: 850px;
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
 /*products section*/
 .products {
-  height: 850px;
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: column;
+
 }
 
 .productsArticle {
@@ -130,15 +130,13 @@
 
 /*footer section*/
 .mainFooter {
-  width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 
 }
 
 .brandDescription {
   width: 430px;
+}
+
+.copyright {
+  background-color: #e6e6e6;
 }
