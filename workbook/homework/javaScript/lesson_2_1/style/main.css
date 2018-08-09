@@ -12,22 +12,52 @@
   justify-content: space-between;
 }
 
+.logo a {
+  color: #222222;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.68px;
+}
+
+.logo span {
+  color: #f16d7f;
+}
+
+.brandButton {
+  width: 130px;
+  height: 38px;
+  border-radius: 3px;
+  background-color: #f16d7f;
+}
+
 .mainNav {
   width: 680px;
   height: 51px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .mainNav ul {
   margin: 0 auto;
+  display: inline-block;
   display: flex;
   list-style-type: none;
   justify-content: space-around;
 }
 
+.mainNavItem {
+  height: 10px;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
 
+.mainNavItem:hover {
 
-
+}
 
 
 
