@@ -1,4 +1,4 @@
-/*header block*/
+/*header section*/
 .mainHeader {
 
 }
@@ -24,6 +24,16 @@
   list-style-type: none;
   justify-content: space-around;
 }
+
+
+
+
+
+
+
+
+
+
 
 /*slider section*/
 .sliderFrame {
@@ -57,10 +67,37 @@
   margin: 10px 10px;
   align-items: center;
 }
+/*banner section*/
+.featureBanner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.bannerImg {
+  float: left;
+}
+.bannerDescription {
+  width: 373px;
+  float: right;
+}
 /*subscribe section*/
 .subscribe {
-  background-image: image(images/Layer_41.png);
+  clear: both;
+  height: 435px;
+  box-sizing: border-box;
+  background-color: #AAA;
 }
+
+
+
+
+
+
+
+
+
+
+
 /*footer section*/
 .mainFooter {
   width: 1200px;
